@@ -1,6 +1,7 @@
 <template>
 	<div>
 		<HomeSliderSection />
+		<HomeGrowthSection />
 		<!-- <HomeTrustedBrands />
 		<HomeComplianceSection />
 		<HomeFeatureSection />
