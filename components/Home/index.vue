@@ -2,6 +2,7 @@
 	<div>
 		<HomeSliderSection />
 		<HomeGrowthSection />
+		<HomeEventSection />
 		<!-- <HomeTrustedBrands />
 		<HomeComplianceSection />
 		<HomeFeatureSection />
