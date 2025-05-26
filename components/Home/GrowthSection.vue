@@ -1,7 +1,7 @@
 <template>
-	<section class="py-8 section-abt-us bg-cover bg-center" :style="{ backgroundImage: 'url(/img/bg-abt.jpg)' }">
-		<div class="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 my-4">
-			<div class="bg-black bg-opacity-70 rounded-lg p-6">
+	<section class="py-8 section-abt-us bg-cover bg-center" >
+		<div class="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 my-4" >
+			<div class="bg-black bg-opacity-70 rounded-lg p-6 abt-us-background" :style="{ backgroundImage: 'url(/images/growth/bg-abt.png)' }">
 				<div class="flex flex-col lg:flex-row gap-8">
 					<!-- Left Cards (About, Mission, Success, Context) -->
 					<div class="flex-1 flex flex-col gap-6">
@@ -241,4 +241,11 @@
 	.max-h-96::-webkit-scrollbar-thumb:hover {
 		background: #a8a8a8;
 	}
+
+    .abt-us-background{
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+    }
 </style>
