@@ -3,6 +3,7 @@
 		<HomeSliderSection />
 		<HomeGrowthSection />
 		<HomeEventSection />
+		<HomeAdvisorSection />
 		<!-- <HomeTrustedBrands />
 		<HomeComplianceSection />
 		<HomeFeatureSection />
