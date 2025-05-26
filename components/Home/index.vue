@@ -4,6 +4,7 @@
 		<HomeGrowthSection />
 		<HomeEventSection />
 		<HomeAdvisorSection />
+		<HomeCounterSection />
 		<!-- <HomeTrustedBrands />
 		<HomeComplianceSection />
 		<HomeFeatureSection />
