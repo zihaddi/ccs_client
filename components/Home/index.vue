@@ -5,6 +5,7 @@
 		<HomeEventSection />
 		<HomeAdvisorSection />
 		<HomeCounterSection />
+		<HomeStoriesSection />
 		<!-- <HomeTrustedBrands />
 		<HomeComplianceSection />
 		<HomeFeatureSection />
