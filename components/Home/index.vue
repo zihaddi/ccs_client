@@ -6,12 +6,8 @@
 		<HomeAdvisorSection />
 		<HomeCounterSection />
 		<HomeStoriesSection />
-		<!-- <HomeTrustedBrands />
-		<HomeComplianceSection />
-		<HomeFeatureSection />
-		<HomePlans />
-		<HomeBlogs />
-		<HomeContact /> -->
+		<HomeBangladeshSection />
+		<HomeActivitySection />
 	</div>
 </template>
 
