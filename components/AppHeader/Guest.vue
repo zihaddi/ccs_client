@@ -128,7 +128,7 @@
 			'fixed top-0 w-full transition-all duration-300 z-50 ',
 			isScrolled ? 'py-2 bg-white/95 shadow-md dark:bg-gray-900/95' : 'py-4 bg-white dark:bg-gray-900',
 		]">
-		<div class="flex items-center justify-between px-4 sm:px-6 md:px-8 lg:px-12">
+		<div class="flex items-center justify-between container mx-auto px-4 sm:px-6 md:px-8 lg:px-12">
 			<!-- logo portion -->
 			<NuxtLink to="/" :class="['transition-transform duration-300', isScrolled ? 'scale-90' : 'scale-100']">
 				<ApplicationLogo :width="'100%'" :height="isScrolled ? '40px' : '50px'" />

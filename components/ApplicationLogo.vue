@@ -12,9 +12,8 @@
 </script>
 <template>
     <div>
-        <NuxtImg src="/images/logo.png" alt=""
-            :width="width"
-            :height="height"
+        <img src="/images/logo.png" alt=""
+            :style ="{ width: props.width, height: props.height }"
             class="fill-current" />
         
             

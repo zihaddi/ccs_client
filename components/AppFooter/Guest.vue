@@ -1,6 +1,6 @@
 <template>
 	<footer class="bg-gray-900 text-white ">
-		<div class="px-4 sm:px-6 md:px-8 lg:px-12 py-8 text-center">
+		<div class="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 my-8 py-8">
 			<!-- Main Footer Content -->
 			<div class="text-left">
 				<div class="grid grid-cols-2 md:grid-cols-6 gap-6 lg:gap-8">
@@ -126,7 +126,7 @@
 			<div class="bg-cover bg-center bg-no-repeat" style="background-image: url('/images/footer-bg-high-2.png')">
 				<div class="bg-blue-900 bg-opacity-50">
 					<!-- Location Section -->
-					<div class="px-4 py-4 sm:px-6 md:px-8 lg:px-12" id="location">
+					<div class="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 my-8 py-8" id="location">
 						<!-- Section Title -->
 						<div class="flex items-center justify-center mb-8">
 							<img src="/images/location.gif" alt="Location" class="mr-3 w-10 h-10">
@@ -210,7 +210,7 @@
 
 					<!-- Social Media Section -->
 					<div class="bg-gradient-to-t from-gray-800 via-black to-transparent py-16">
-						<div class="px-4 sm:px-6 md:px-8 lg:px-12">
+						<div class="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 my-8 py-8">
 							<div class="bg-white px-4 py-8 rounded-lg shadow-xl">
 								<h2 class="text-2xl font-bold text-black text-center mb-8">Join the CCS Social Community</h2>
 

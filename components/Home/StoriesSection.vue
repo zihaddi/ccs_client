@@ -149,9 +149,7 @@
 
 <style scoped>
 	
-	.container {
-		max-width: 1200px;
-	}
+	
 
 	
 	.bg-gradient-to-t {

@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full min-h-screen bg-cover " :style="bgStyle">
+	<div class="w-full  bg-cover " :style="bgStyle">
 		<div class="w-full " :style="overlayStyle">
 			<div class="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12  py-8">
 				<div class="flex flex-col">
@@ -1232,7 +1232,7 @@
 	}));
 	const overlayStyle = computed(() => ({
 		backgroundColor: "rgba(0,0,102,0.4)",
-		minHeight: "100vh",
+		
 		width: "100%",
 	}));
 </script>
