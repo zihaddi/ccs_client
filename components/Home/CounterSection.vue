@@ -202,6 +202,12 @@ img {
 	border-color: rgba(255, 255, 255, 0.3);
 }
 
+:deep(.p-card) {
+		
+		background: none !important;
+		
+	}
+
 @media (max-width: 640px) {
 	.text-5xl {
 		font-size: 2.5rem;
