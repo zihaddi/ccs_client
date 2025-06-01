@@ -43,8 +43,8 @@
 
 		<div class="flex flex-wrap my-6">
 			<!-- President Secretary Cards Section -->
-			<div class="w-full md:w-2/3 px-4 ">
-				<div class="p-0 ">
+			<div class="w-full md:w-2/3 px-4">
+				<div class="p-0">
 					<h1 class="text-2xl bg-[#020039] text-white text-center py-3 mb-5 rounded font-bold mb-4">Islami University Branch Committee</h1>
 					<hr class="mb-4 border-t border-blue-900" />
 
@@ -53,7 +53,7 @@
 						<div class="w-full md:w-1/2 px-3 mb-3">
 							<Card class="w-full">
 								<template #header>
-									<img src="/images/slots/cs-blank.jpg" class="w-full  object-cover" alt="President" />
+									<img src="/images/slots/cs-blank.jpg" class="w-full object-cover" alt="President" />
 								</template>
 								<template #content>
 									<div class="text-center">
@@ -80,7 +80,7 @@
 						<div class="w-full md:w-1/2 px-3 mb-3">
 							<Card class="w-full">
 								<template #header>
-									<img src="/images/slots/cs-blank.jpg" class="w-full  object-cover" alt="Secretary" />
+									<img src="/images/slots/cs-blank.jpg" class="w-full object-cover" alt="Secretary" />
 								</template>
 								<template #content>
 									<div class="text-center">
@@ -234,7 +234,6 @@
 
 	.carousel-item-wrapper {
 		position: relative;
-       
 	}
 
 	.carousel-item-wrapper::before {
@@ -244,7 +243,7 @@
 		left: 0;
 		right: 0;
 		bottom: 50%;
-        
+
 		z-index: 100;
 		pointer-events: none;
 	}

@@ -2,7 +2,7 @@
 	<div class="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 my-8">
 		<!-- Section Header -->
 		<div class="row">
-			<div class="col-lg-12">
+			<div>
 				<div class="section-title text-center mb-12">
 					<div class="animated fadeInUp" style="animation-duration: 1s">
 						<h4 class="subtitle">
