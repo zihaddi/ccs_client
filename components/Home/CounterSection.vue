@@ -4,7 +4,7 @@
 		<div class="absolute inset-0 bg-black bg-opacity-50"></div>
 
 		<!-- Content -->
-		<div class="relative z-10 container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-24 my-8">
+		<div class="relative z-10 container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 py-24 ">
 			<div ref="counterContainer" class=" my-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
 				<!-- Branches Card -->
 				<Card class="bg-black bg-opacity-30 border border-white rounded-lg text-center hover:transform hover:scale-105 transition-transform duration-300">

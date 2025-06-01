@@ -14,7 +14,7 @@
     <div>
         <img src="/images/logo.png" alt=""
             :style ="{ width: props.width, height: props.height }"
-            class="fill-current" />
+            class="object-contain" />
         
             
     </div>

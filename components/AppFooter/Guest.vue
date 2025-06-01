@@ -1,6 +1,6 @@
 <template>
 	<footer class="bg-gray-900 text-white ">
-		<div class="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12 my-8 py-8">
+		<div class="container mx-auto px-4 sm:px-6 md:px-8 lg:px-12  py-8">
 			<!-- Main Footer Content -->
 			<div class="text-left">
 				<div class="grid grid-cols-2 md:grid-cols-6 gap-6 lg:gap-8">

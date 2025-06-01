@@ -15,20 +15,25 @@
 						</div>
 					</template>
 
+					<template #opposite="slotProps">
+						<!-- Image Section -->
+
+						<div class="flex mt-4 min-h-[300px] max-h-94 flex-col gap-6 items-center">
+							<div :class="slotProps.index % 2 === 0 ? 'order-1' : 'order-2 md:order-1'">
+								<img
+									:src="slotProps.item.image"
+									:alt="slotProps.item.title"
+									class="w-full rounded-lg shadow-md hover:shadow-lg transition-all duration-300" />
+							</div>
+						</div>
+					</template>
+
 					<template #content="slotProps">
 						<Card class="mt-4 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-[1.02]">
 							<template #content>
 								<div class="flex flex-col gap-6 items-center">
-									<!-- Image Section -->
-									<div :class="slotProps.index % 2 === 0 ? 'order-1' : 'order-2 md:order-1'">
-										<img
-											:src="slotProps.item.image"
-											:alt="slotProps.item.title"
-											class="w-full rounded-lg shadow-md hover:shadow-lg transition-all duration-300" />
-									</div>
-
 									<!-- Content Section -->
-									<div :class="slotProps.index % 2 === 0 ? 'order-2' : 'order-1 md:order-2'">
+									<div class="max-h-96 min-h-[300px]" :class="slotProps.index % 2 === 0 ? 'order-2' : 'order-1 md:order-2'">
 										<h2 class="text-2xl md:text-3xl font-bold text-red-600 mb-4">
 											{{ slotProps.item.title }}
 										</h2>
@@ -104,11 +109,8 @@
 
 	// Handle more stories button click
 	const handleMoreStories = () => {
-		
 		console.log("Navigating to more stories...");
-		
 	};
-
 
 	const defaultStories = [
 		{
@@ -148,10 +150,6 @@
 </script>
 
 <style scoped>
-	
-	
-
-	
 	.bg-gradient-to-t {
 		background-image: linear-gradient(to top, rgba(255, 255, 255, 1), rgb(255, 242, 232));
 	}
